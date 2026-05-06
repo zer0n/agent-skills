@@ -82,16 +82,6 @@ For detailed profiling and optimization, see `performance-optimization`. Does th
 
 ## Change Sizing
 
-Small, focused changes are easier to review, faster to merge, and safer to deploy. Target these sizes:
-
-```
-~100 lines changed   → Good. Reviewable in one sitting.
-~300 lines changed   → Acceptable if it's a single logical change.
-~1000 lines changed  → Too large. Split it.
-```
-
-**What counts as "one change":** A single self-contained modification that addresses one thing, includes related tests, and keeps the system functional after submission. One part of a feature — not the whole feature.
-
 **Splitting strategies when a change is too large:**
 
 | Strategy | How | When |
